@@ -1,0 +1,181 @@
+body {
+}
+
+/* Navbar */
+
+#navbar{
+    position: fixed;
+    min-height: 104vh;
+    width: 20vw;
+}
+
+.navbar-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+.navbar-link {
+    font-family: 'Open Sans', sans-serif;
+    color: darkgray;
+    text-decoration: none;
+}
+
+/* Main Content */
+
+main {
+    min-height: 104vh;
+    margin-left: 25vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+br {
+    line-height: 0.5em;
+}
+
+/* About */
+
+img {
+    display: inline;
+    max-width: 50%;
+    height: auto;
+}
+
+/* Projects */
+
+#projects {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.project {
+    border: solid darkgray;
+    text-align: center;
+    vertical-align: center;
+    margin-right: 2vmax;
+    margin-bottom: 2vmax;
+    border-radius: 5%;
+}
+
+.project-link {
+    color: black;
+    text-decoration: none;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 5% auto auto;
+}
+
+#more-projects {
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    border: solid darkgray;
+    border-radius: 5%;
+    width: 15%;
+    margin: auto 10vmax auto auto;
+}
+
+/* Music */
+
+#music {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.music-piece {
+    border: solid darkgray;
+    text-align: center;
+    vertical-align: center;
+    margin-right: 2vmax;
+    margin-bottom: 2vmax;
+    border-radius: 5%;
+}
+
+.music-link {
+    color: black;
+    text-decoration: none;
+}
+
+.music-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 5% auto auto;
+}
+
+#more-music {
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    border: solid darkgray;
+    border-radius: 5%;
+    width: 15%;
+    margin: auto 10vmax auto auto;
+}
+
+/* Thoughts */
+
+.post-date {
+    color: gray;
+}
+
+/* Contact */
+
+input {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    margin-bottom: 2vh;
+}
+
+textarea{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    margin-bottom: 2vh;
+    height: 30vh;
+    resize: none;
+}
+
+button[type=submit] {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    border-style: solid;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 25vw;
+}
+
+.fa {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+span {
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+}
+
+#copyright {
+    display: inline;
+    margin: auto;
+    margin-right: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+
+}
