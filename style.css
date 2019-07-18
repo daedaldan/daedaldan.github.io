@@ -49,6 +49,7 @@ img {
 
 #projects {
     display: grid;
+    grip-gap: 2vmax;
     grid-template-columns: 30% 30% 30%;
 }
 
@@ -56,8 +57,6 @@ img {
     border: solid darkgray;
     text-align: center;
     vertical-align: center;
-    margin-right: 2vmax;
-    margin-bottom: 2vmax;
     border-radius: 5%;
 }
 
@@ -81,7 +80,7 @@ img {
     border: solid darkgray;
     border-radius: 5%;
     width: 15%;
-    margin: auto 10vmax auto auto;
+    margin: auto;
     padding: 5px;
 }
 
@@ -89,6 +88,7 @@ img {
 
 #music {
     display: grid;
+    grid-gap: 2vmax;
     grid-template-columns: 30% 30% 30%;
 }
 
@@ -96,8 +96,6 @@ img {
     border: solid darkgray;
     text-align: center;
     vertical-align: center;
-    margin-right: 2vmax;
-    margin-bottom: 2vmax;
     border-radius: 5%;
 }
 
@@ -121,7 +119,7 @@ img {
     border: solid darkgray;
     border-radius: 5%;
     width: 15%;
-    margin: auto 10vmax auto auto;
+    margin: auto;
     padding: 5px;
 }
 
