@@ -14,10 +14,23 @@ body {
 }
 
 /* Navbar */
-#navbar{
-    position: fixed;
-    min-height: 104vh;
-    width: 20vw;
+@media (min-width: 767px) {
+  #navbar{
+      position: fixed;
+      min-height: 104vh;
+      width: 20vw;
+  }
+}
+
+@media (max-width: 767px) {
+  #navbar{
+      display: block;
+      text-align: center;
+      line-height: 0.2;
+      min-height: 20vh;
+      width: 100vw;
+      margin-left: -5vw;
+  }
 }
 
 .navbar-header {
@@ -26,15 +39,36 @@ body {
     list-style-type: none;
 }
 
-li {
-    line-height: 2em;
+@media (max-width: 767px) {
+  #navbar-header-list {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+  }
 }
 
-.navbar-link {
-    color: black;
-    list-style-type: none;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold
+ li {
+  line-height: 2em;
+ }
+
+@media (min-width: 767px) {
+  .navbar-link {
+      color: black;
+      list-style-type: none;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: bold
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-link {
+      color: blue;
+      list-style-type: none;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: bold
+      display: inline-block;
+      margin: auto 5px;
+  }
 }
 
 a:hover {
@@ -64,10 +98,20 @@ h1 {
   left: 0;
 }
 
-main {
+@media (min-width: 767px) {
+  main {
     min-height: 104vh;
     margin-left: 25vw;
     font-family: 'DM Sans', sans-serif;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    min-height: 104vh;
+    margin-left: 5vw;
+    font-family: 'DM Sans', sans-serif;
+  }
 }
 
 br {
@@ -76,9 +120,18 @@ br {
 
 /* About */
 
-img {
-    max-width: 70%;
-    height: auto;
+@media (min-width: 767px) {
+  img {
+      max-width: 70%;
+      height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  img {
+      max-height: 20vh;
+      width: auto;
+  }
 }
 
 #profile-pic {
@@ -86,13 +139,29 @@ img {
 }
 
 /* Experience */
-.job {
-  line-height: 0;
+@media (min-width: 1200px) {
+  .job {
+    line-height: 0;
+  }
 }
 
-.job-heading {
-  display: flex;
-  justify-content: space-between;
+@media (max-width: 1200px) {
+  .job {
+    line-height: 0.75;
+  }
+}
+
+@media (min-width: 1200px) {
+  .job-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1200px) {
+  .job-heading {
+     display: block;
+  }
 }
 
 .timeframe {
@@ -104,10 +173,20 @@ img {
 }
 
 /* Projects */
-#project-grid {
-    display: grid;
-    grid-gap: 2vmax;
-    grid-template-columns: 30% 30% 30%;
+@media (min-width: 767px) {
+  #project-grid {
+      display: grid;
+      grid-gap: 2vmax;
+      grid-template-columns: 30% 30% 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  #project-grid {
+      display: grid;
+      grid-gap: 2vmax;
+      grid-template-columns: 45% 45%;
+  }
 }
 
 .project {
@@ -115,6 +194,7 @@ img {
     text-align: center;
     vertical-align: center;
     border-radius: 5%;
+    position relative;
 }
 
 .project-link {
@@ -125,12 +205,11 @@ img {
 .project-description {
   padding: 5% 0px;
   margin: auto;
-  
 }
 
 .project-image {
     display: block;
-    width: 100%;
+    max-width: 90%;
     height: auto;
     margin: 5% auto;
 }
@@ -173,8 +252,16 @@ button[type=submit] {
 
 /* Footer */
 
-footer {
-    margin-left: 25vw;
+@media (min-width: 767px) {
+  footer {
+      margin-left: 25vw;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+      text-align: center;
+  }
 }
 
 .fa {
