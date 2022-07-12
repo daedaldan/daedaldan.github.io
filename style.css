@@ -14,7 +14,7 @@ body {
 }
 
 /* Navbar */
-@media (min-width: 767px) {
+@media (min-width: 420px) {
   #navbar{
       position: fixed;
       min-height: 104vh;
@@ -22,14 +22,13 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   #navbar{
       display: block;
       text-align: center;
       line-height: 0.2;
       min-height: 20vh;
       width: 100vw;
-      margin-left: -5vw;
   }
 }
 
@@ -39,7 +38,7 @@ body {
     list-style-type: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   #navbar-header-list {
     list-style-type: none;
     display: inline-block;
@@ -51,7 +50,7 @@ body {
   line-height: 2em;
  }
 
-@media (min-width: 767px) {
+@media (min-width: 420px) {
   .navbar-link {
       color: black;
       list-style-type: none;
@@ -60,7 +59,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   .navbar-link {
       color: blue;
       list-style-type: none;
@@ -98,7 +97,7 @@ h1 {
   left: 0;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 420px) {
   main {
     min-height: 104vh;
     margin-left: 25vw;
@@ -106,10 +105,10 @@ h1 {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   main {
     min-height: 104vh;
-    margin-left: 5vw;
+    margin: auto 5vw;
     font-family: 'DM Sans', sans-serif;
   }
 }
@@ -120,14 +119,14 @@ br {
 
 /* About */
 
-@media (min-width: 767px) {
+@media (min-width: 420px) {
   img {
       max-width: 70%;
       height: auto;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   img {
       max-height: 20vh;
       width: auto;
@@ -173,7 +172,7 @@ br {
 }
 
 /* Projects */
-@media (min-width: 767px) {
+@media (min-width: 420px) {
   #project-grid {
       display: grid;
       grid-gap: 2vmax;
@@ -181,7 +180,7 @@ br {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   #project-grid {
       display: grid;
       grid-gap: 2vmax;
@@ -216,13 +215,13 @@ br {
 
 /* Footer */
 
-@media (min-width: 767px) {
+@media (min-width: 420px) {
   footer {
       margin-left: 25vw;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   footer {
       text-align: center;
   }
