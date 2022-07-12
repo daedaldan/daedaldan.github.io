@@ -214,42 +214,6 @@ br {
     margin: 5% auto;
 }
 
-#more-projects {
-    color: black;
-    text-align: center;
-    vertical-align: center;
-    text-decoration: none;
-    box-shadow: 0 0 5px 2px gray;
-    border-radius: 10%;
-    margin: auto;
-    width: auto;
-    padding: 15px;
-}
-
-/* Contact */
-
-input {
-    display: block;
-    font-family: 'DM Sans', sans-serif;
-    width: 50%;
-    margin-bottom: 2vh;
-}
-
-textarea{
-    display: block;
-    font-family: 'DM Sans', sans-serif;
-    width: 50%;
-    margin-bottom: 2vh;
-    height: 30vh;
-    resize: none;
-}
-
-button[type=submit] {
-    font-family: 'DM Sans', sans-serif;
-    background-color: white;
-    border-style: solid;
-}
-
 /* Footer */
 
 @media (min-width: 767px) {
