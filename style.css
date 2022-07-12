@@ -1,21 +1,3 @@
-@media (min-width: 420px) {
-  body {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-}
-
-@media (max-width: 420px) {
-  body {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-    font-size: 1.2em;
-  }
-}
-
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -28,6 +10,10 @@
 /* Navbar */
 @media (min-width: 420px) {
   #navbar{
+      animation: fadeInAnimation ease 2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    
       position: fixed;
       min-height: 104vh;
       width: 20vw;
@@ -36,6 +22,10 @@
 
 @media (max-width: 420px) {
   #navbar{
+      animation: fadeInAnimation ease 2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    
       display: block;
       text-align: center;
       line-height: 0.2;
@@ -131,6 +121,11 @@ br {
 }
 
 /* About */
+#about {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 @media (min-width: 420px) {
   img {
@@ -151,6 +146,12 @@ br {
 }
 
 /* Experience */
+#experience {
+    animation: fadeInAnimation ease 4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 @media (min-width: 1200px) {
   .job {
     line-height: 0;
@@ -189,6 +190,12 @@ br {
 }
 
 /* Projects */
+#projects {
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 @media (min-width: 420px) {
   #project-grid {
       display: grid;
@@ -234,12 +241,18 @@ br {
 
 @media (min-width: 420px) {
   footer {
+      animation: fadeInAnimation ease 6s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
       margin-left: 25vw;
   }
 }
 
 @media (max-width: 420px) {
   footer {
+      animation: fadeInAnimation ease 6s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
       text-align: center;
   }
 }
@@ -254,12 +267,4 @@ br {
 span {
     margin-right: 1vw;
     margin-bottom: 2vw;
-}
-
-#copyright {
-    display: inline;
-    margin: auto;
-    margin-right: 2vw;
-    font-family: 'DM Sans', sans-serif;
-    float: right;
 }
