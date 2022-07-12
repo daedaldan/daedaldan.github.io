@@ -3,7 +3,7 @@
   <head>
       <link rel="stylesheet" type="text/css" href="style.css">
       <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|DM+Sans&display=swap" rel="stylesheet">
       <!-- Social Media Icons from Font Awesome -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <title>Daniel Wang</title>
@@ -12,27 +12,105 @@
     <!-- Navigation Bar -->
     <div id="navbar">
             <ul>
-                <li><h1 class="navbar-header">Daniel Wang</h1></li>
-                <li><h2 class="navbar-header"></h2></li>
-                <nav>
-                    <li><a class="navbar-link" style="color: black; font-weight: bold" href="index.html">ABOUT</a></li>
-                    <li><a class="navbar-link" href="projects.html">PROJECTS</a></li>
-                    <!-- <li><a class="navbar-link" href="music.html">MUSIC</a></li> -->
-                    <!-- <li><a class="navbar-link" href="thoughts.html">THOUGHTS</a></li> -->
-                    <!-- <li><a class="navbar-link" href="contact.html">CONTACT</a></li> -->
+                <img id="profile-pic" src="https://drive.google.com/uc?export=view&id=1s3lQxYv1VIia2aiaOvsI27cvHcP6OVs6"
+             alt="Photo of me.">
+                <li class="navbar-header"><h1>Daniel Wang</h1></li>
+                <li class="navbar-header"><h2></h2></li>
+                <nav style="text-decoration: none">
+                    <li class="navbar-link"><a  href="#about">ABOUT</a></li>
+                    <li class="navbar-link"><a href="#experience">EXPERIENCE</a></li>
+                    <li class="navbar-link"><a href="#projects">PROJECTS</a></li>
                 </nav>
             </ul>
     </div>
     <!-- Main Content -->
     <main>
         <br>
-        <h1>About</h1>
+      <div id="about">
+        <h1 class="heading">About</h1>
         <h2>I like to build things.</h2>
-        <img src="https://drive.google.com/uc?export=view&id=1qmScH1PpjAZFT1-d62QT4rjILBxPuHYU"
-             alt="Photo of me.">
-      <p>My name is Daniel Wang, and I'm a high school student excited about problem-solving and technology's vast-reaching potential
+      <p>I'm a high school senior excited about problem-solving and technology's vast-reaching potential
           to improve the lives of everyday people.</p>
         <p>In my free time, I enjoy playing classical guitar, photography, and being outdoors.</p>
+      </div>
+      <div id="experience">
+        <h1 class="heading">Experience</h1>
+        <div class="job">
+          <div class="job-heading">
+            <h3 class="role">Donor and Alumni Relations Committee Head</h3>
+            <p class="timeframe">May 2021 - Present</p>
+          </div>
+          <p class="place">MiniTHON at Manheim Township High School</p>
+          <ul>
+            <li>Worked with the MTHS MiniTHON to raise money for pediatric cancer treatment and awareness</li>
+            <li>Called local business to arrange sponsorships and fundraise over $9,600</li>
+            <li>Led committee meetings to help 16 members develop fundraising skills</li>
+            <li>Implemented a novel dashboard to track business calls and fundraising efforts</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-heading">
+            <h3 class="role">Cofounder and Co-President</h3>
+            <p class="timeframe">September 2019 - Present</p>
+          </div>
+          <p class="place">Startup Club</p>
+          <ul>
+            <li>Helped over 40 students learn and practice entrepreneurship to bring their ideas to reality</li>
+            <li>Organized workshops, activities, and guest speaker sessions for club members</li>
+            <li>Collaborated with peers to brainstorm, develop, and implement club sessions every two weeks</li>
+            <li>Led team of four by assigning tasks, coordinating activities, and providing support</li>
+          </ul>
+        </div>
+      </div>
+      <div id="projects">
+        <h1 class="heading">Projects</h1>
+        <h2>I like to build things.</h2>
+      <div id="project-grid">
+    <div class="project">
+      <a href="https://github.com/daedaldan/immunotherapy-gene-profiling" class="project-link">
+        <img src="https://drive.google.com/uc?export=view&id=1cCrN08S0MHsc0hOYBeXTlM622M3ujcgC"
+             alt="Heatmap" class="project-image">
+        <p class="project-description">Melanoma Anti-PD-1 Repsonse</p>
+      </a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/daedaldan/hackerthoughts" class="project-link">
+        <img src="https://drive.google.com/uc?export=view&id=1Ekgo50Rot8cJfETuONjfV9ZrUUnfXdb-"
+             alt="HackerThoughts Screenshot" class="project-image">
+        <p class="project-description">HackerThoughts</p>
+      </a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/daedaldan/acuvere" class="project-link">
+        <img src="https://drive.google.com/uc?export=view&id=1jt15OfyE2afdmp8l0GWKAClR8vtupnAy"
+             alt="Acuvere Logo" class="project-image">
+        <p class="project-description">Acuvere</p>
+      </a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/daedaldan/usaco" class="project-link">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAv4WHQdwoGKJ3Z2yQEW2_6OhsExYZO8H3c99Bg5l6Re_lu10SfEzajUp9nn8Npsbmm1Q&usqp=CAU"
+             alt="USACO Logo" class="project-image">
+        <p class="project-description">USA Computing Olympiad</p>
+      </a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/daedaldan/what_i_do" class="project-link">
+        <img src="https://drive.google.com/uc?export=view&id=1nJwzjkgskGLOgCAJxs9KmE2QP-o-o7S0"
+             alt="What I Do Screenshot" class="project-image">
+        <p class="project-description">What I Do</p>
+      </a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/rbapat/FeedForward" class="project-link">
+        <img src="https://drive.google.com/uc?export=view&id=1_P1ayepVX86awrnd9LXq47MFZ_Y68ScN"
+             alt="FeedForward Screenshot" class="project-image">
+        <p class="project-description">FeedForward</p>
+      </a>
+    </div>
+    <div></div>
+  </div></p>
+      </div>
     </main>
     <!-- Footer -->
     <footer>
