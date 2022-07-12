@@ -1,7 +1,19 @@
-body {
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+@media (min-width: 420px) {
+  body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+@media (max-width: 420px) {
+  body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    font-size: 1.5em;
+  }
 }
 
 @keyframes fadeInAnimation {
@@ -29,6 +41,7 @@ body {
       line-height: 0.2;
       min-height: 20vh;
       width: 100vw;
+      margin-left: -5vw;
   }
 }
 
@@ -155,6 +168,10 @@ br {
     display: flex;
     justify-content: space-between;
   }
+}
+
+.role {
+  line-height: 1.25em;
 }
 
 @media (max-width: 1200px) {
