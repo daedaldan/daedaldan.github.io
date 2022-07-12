@@ -2,6 +2,24 @@ html {
   scroll-behavior: smooth;
 } 
 
+#bio-container{
+  width: max-content;
+}
+#bio {
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  line-height: 1em;
+  width: 0;
+  animation: typing 2.5s forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
