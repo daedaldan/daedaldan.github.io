@@ -5,6 +5,7 @@ html {
 #bio-container{
   width: max-content;
 }
+
 #bio {
   overflow: hidden;
   border-right: .15em solid black;
@@ -30,7 +31,7 @@ html {
 }
 
 /* Navbar */
-@media (min-width: 420px) {
+@media (min-width: 767px) {
   #navbar{
       animation: fadeInAnimation ease 2s;
       animation-iteration-count: 1;
@@ -42,7 +43,7 @@ html {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   #navbar{
       animation: fadeInAnimation ease 2s;
       animation-iteration-count: 1;
@@ -63,7 +64,7 @@ html {
     list-style-type: none;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   #navbar-header-list {
     list-style-type: none;
     display: inline-block;
@@ -75,7 +76,7 @@ html {
   line-height: 2em;
  }
 
-@media (min-width: 420px) {
+@media (min-width: 767px) {
   .navbar-link {
       color: black;
       list-style-type: none;
@@ -84,7 +85,7 @@ html {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   .navbar-link {
       color: blue;
       list-style-type: none;
@@ -122,7 +123,7 @@ h1 {
   left: 0;
 }
 
-@media (min-width: 420px) {
+@media (min-width: 767px) {
   main {
     min-height: 104vh;
     margin-left: 25vw;
@@ -130,7 +131,7 @@ h1 {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   main {
     min-height: 104vh;
     margin: auto 5vw;
@@ -149,14 +150,14 @@ br {
     animation-fill-mode: forwards;
 }
 
-@media (min-width: 420px) {
+@media (min-width: 767px) {
   img {
       max-width: 70%;
       height: auto;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   img {
       max-height: 20vh;
       width: auto;
@@ -218,7 +219,7 @@ br {
     animation-fill-mode: forwards;
 }
 
-@media (min-width: 420px) {
+@media (min-width: 767px) {
   #project-grid {
       display: grid;
       grid-gap: 2vmax;
@@ -226,7 +227,7 @@ br {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   #project-grid {
       display: grid;
       grid-gap: 2vmax;
@@ -261,7 +262,7 @@ br {
 
 /* Footer */
 
-@media (min-width: 420px) {
+@media (min-width: 767px) {
   footer {
       animation: fadeInAnimation ease 6s;
       animation-iteration-count: 1;
@@ -270,7 +271,7 @@ br {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   footer {
       animation: fadeInAnimation ease 6s;
       animation-iteration-count: 1;
