@@ -211,6 +211,10 @@ br {
   margin-right: 5%;
 }
 
+.place {
+  line-height: 1.5em;
+}
+
 .role {
   font-style: italic;
 }
