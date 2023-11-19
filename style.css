@@ -148,6 +148,7 @@ br {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    margin-right: 5%;
 }
 
 @media (min-width: 767px) {
@@ -168,12 +169,19 @@ br {
   border-radius: 50%;
 }
 
-/* Experience */
+/* Education and Experience */
 #experience {
     animation: fadeInAnimation ease 4.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
+#education {
+    animation: fadeInAnimation ease 4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 
 @media (min-width: 1200px) {
   .job {
@@ -194,9 +202,9 @@ br {
   }
 }
 
-.role, .place {
+/*.role, .place {
   line-height: 1.25em;
-}
+}*/
 
 @media (max-width: 1200px) {
   .job-heading {
@@ -208,7 +216,7 @@ br {
   margin-right: 5%;
 }
 
-.place {
+.role {
   font-style: italic;
 }
 
