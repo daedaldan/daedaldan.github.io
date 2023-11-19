@@ -170,18 +170,17 @@ br {
 }
 
 /* Education and Experience */
-#experience {
-    animation: fadeInAnimation ease 4.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
 #education {
-    animation: fadeInAnimation ease 4.5s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
+#experience {
+    animation: fadeInAnimation ease 7;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 @media (min-width: 1200px) {
   .job {
@@ -202,10 +201,6 @@ br {
   }
 }
 
-/*.role, .place {
-  line-height: 1.25em;
-}*/
-
 @media (max-width: 1200px) {
   .job-heading {
      display: block;
@@ -218,6 +213,26 @@ br {
 
 .role {
   font-style: italic;
+}
+
+/* Skills */
+#skills {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  border-radius: 10%;
+  background: #d5ebf5;
+  margin: 1% 1% 1% 0;
+  padding: 1.5%;
+  -webkit-hyphens: auto;
 }
 
 /* Projects */
@@ -244,11 +259,12 @@ br {
 }
 
 .project {
+    display: flex;
     box-shadow: 0 0 5px 2px gray;
     text-align: center;
-    vertical-align: center;
+    align-items: center;
     border-radius: 5%;
-    position relative;
+    position: relative;
 }
 
 .project-link {
@@ -256,9 +272,13 @@ br {
     text-decoration: none;
 }
 
+.project-title {
+    font-weight: bold;
+    margin: auto;
+}
+
 .project-description {
-  padding: 5% 0px;
-  margin: auto;
+    margin: 3%;
 }
 
 .project-image {
