@@ -211,8 +211,10 @@ br {
   margin-right: 5%;
 }
 
-.place {
-  line-height: 1.2em;
+@media (max-width: 1200px) {
+  .place {
+    line-height: 1.1em;
+  }
 }
 
 .role {
