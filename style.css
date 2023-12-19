@@ -217,9 +217,19 @@ br {
   }
 }
 
-.role {
-  font-style: italic;
+@media (min-width: 1200px) {
+  .role {
+    font-style: italic;
+  }
 }
+
+@media (max-width: 1200px) {
+  .role {
+    font-style: italic;
+    line-height: 1.1em;
+  }
+}
+
 
 /* Skills */
 #skills {
